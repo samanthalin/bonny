@@ -5,6 +5,7 @@
 // @import url(https://fonts.googleapis.com/css?family=Duru+Sans);
 // @import url(font-awesome.min.css);
 @import url(reset.css);
+@import url(animate.css);
 
 $gray: #F6F6F6;
 
@@ -32,6 +33,10 @@ body{
 		}
 	}//cat,user
 	.cat{
+		animation-name: slideInLeft;
+		animation-iteration-count: 1;
+		animation-duration: 0.2s;
+		animation-timing-function: linear;
 		.main-title{
 			position: relative;
 			background-color: #2C6BCD;
@@ -58,6 +63,10 @@ body{
 	.user{
 		right: 0;
 		top: 0;
+		animation-name: slideInRight;
+		animation-iteration-count: 1;
+		animation-duration: 0.2s;
+		animation-timing-function: linear;
 		.main-title{
 			background-color: #2C6BCD;
 			color: white;
@@ -1751,6 +1760,7 @@ body{
 						@media screen and (max-width: 768px){
 							padding: 0;
 							padding-bottom: 30px;
+							margin-top: 15px;
 						}
 					}//product-title
 					@media screen and (max-width: 768px){
@@ -1772,6 +1782,7 @@ body{
 					-webkit-appearance: none;
 					-moz-appearance: none;
 					appearance: none;
+					background-color: $gray;
 					i{
 						margin-right: 10px;
 					}
@@ -1782,11 +1793,10 @@ body{
 				.collect{
 					color: #EF0041;
 					border: 1px solid #EF0041;
-					background-color: white;				}
+				}
 				.cart{
 					color: #1E57AE;
 					border: 1px solid #1E57AE;
-					background-color: white;
 				}
 				.pay{
 					background-color: #1E57AE;
@@ -1853,7 +1863,7 @@ body{
 					}
 				}
 				.text{
-					width: 100%;
+					
 					max-width: 1190px;
 					margin: auto;
 					padding: 10px;

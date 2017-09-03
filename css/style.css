@@ -1,4 +1,5 @@
 @import url(reset.css);
+@import url(animate.css);
 body {
   box-sizing: border-box;
   font-family: sans-serif;
@@ -17,28 +18,37 @@ body {
     @media screen and (max-width: 768px) {
       body .cat, body .user {
         width: 80%; } }
-  body .cat .main-title {
-    position: relative;
-    background-color: #2C6BCD;
-    color: white;
-    text-align: center;
-    width: 100%;
-    height: 49px;
-    font-size: 20px;
-    padding-top: 56px; }
-    body .cat .main-title span {
-      margin-left: 20px; }
-    body .cat .main-title span:before {
-      content: url("../img/home.png");
-      position: absolute;
-      margin-left: -28px;
-      margin-top: 2px; }
-    @media screen and (max-width: 992px) {
-      body .cat .main-title {
-        padding-top: 32px; } }
+  body .cat {
+    animation-name: slideInLeft;
+    animation-iteration-count: 1;
+    animation-duration: 0.2s;
+    animation-timing-function: linear; }
+    body .cat .main-title {
+      position: relative;
+      background-color: #2C6BCD;
+      color: white;
+      text-align: center;
+      width: 100%;
+      height: 49px;
+      font-size: 20px;
+      padding-top: 56px; }
+      body .cat .main-title span {
+        margin-left: 20px; }
+      body .cat .main-title span:before {
+        content: url("../img/home.png");
+        position: absolute;
+        margin-left: -28px;
+        margin-top: 2px; }
+      @media screen and (max-width: 992px) {
+        body .cat .main-title {
+          padding-top: 32px; } }
   body .user {
     right: 0;
-    top: 0; }
+    top: 0;
+    animation-name: slideInRight;
+    animation-iteration-count: 1;
+    animation-duration: 0.2s;
+    animation-timing-function: linear; }
     body .user .main-title {
       background-color: #2C6BCD;
       color: white;
@@ -1421,7 +1431,8 @@ body {
         @media screen and (max-width: 768px) {
           #product .container .content .product-purchase .frame .product-detail {
             padding: 0;
-            padding-bottom: 30px; } }
+            padding-bottom: 30px;
+            margin-top: 15px; } }
       @media screen and (max-width: 768px) {
         #product .container .content .product-purchase .frame {
           width: 90%;
@@ -1438,19 +1449,18 @@ body {
       border-radius: 5px;
       -webkit-appearance: none;
       -moz-appearance: none;
-      appearance: none; }
+      appearance: none;
+      background-color: #F6F6F6; }
       #product .container .content .function button i {
         margin-right: 10px; }
       #product .container .content .function button:focus {
         outline: none; }
     #product .container .content .function .collect {
       color: #EF0041;
-      border: 1px solid #EF0041;
-      background-color: white; }
+      border: 1px solid #EF0041; }
     #product .container .content .function .cart {
       color: #1E57AE;
-      border: 1px solid #1E57AE;
-      background-color: white; }
+      border: 1px solid #1E57AE; }
     #product .container .content .function .pay {
       background-color: #1E57AE;
       color: white;
@@ -1506,7 +1516,6 @@ body {
         #product .container .content .introduction .title {
           width: 100%; } }
     #product .container .content .introduction .text {
-      width: 100%;
       max-width: 1190px;
       margin: auto;
       padding: 10px;
