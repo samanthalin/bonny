@@ -15,6 +15,13 @@ $(document).ready(function(){
 	  fade: true,
 	  autoplay: true,
   	  autoplaySpeed: 2000,
-  	  dots: true,
+	  asNavFor: '.mobile-banner-nav',
+	});
+	$('.mobile-banner-nav').slick({
+	  slidesToShow: 5,
+	  slidesToScroll: 1,
+	  asNavFor: '.mobile-banner-display',
+	  focusOnSelect: true,
+	  arrows: false,
 	});
 });
