@@ -1963,6 +1963,9 @@ body {
           margin-left: 10px; }
           #brand_intro .container .content .introduction .title .relatives a i {
             margin-left: 5px; }
+          @media screen and (max-width: 320px) {
+            #brand_intro .container .content .introduction .title .relatives a {
+              width: 100px; } }
         @media screen and (max-width: 768px) {
           #brand_intro .container .content .introduction .title .relatives {
             float: none;

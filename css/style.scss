@@ -2404,6 +2404,9 @@ body{
 							i{
 								margin-left: 5px;
 							}
+							@media screen and (max-width: 320px){
+								width: 100px;
+							}
 						}
 						@media screen and (max-width: 768px){
 							float: none;
