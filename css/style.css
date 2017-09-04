@@ -1612,4 +1612,406 @@ body {
     #product .container .content {
       margin-top: 80px; } }
 
+#brand .content {
+  margin-top: 105px; }
+  #brand .content .breadcrumbs {
+    background-color: #F6F6F6;
+    padding-left: 40px;
+    height: 35px;
+    line-height: 35px; }
+    #brand .content .breadcrumbs a {
+      display: inline-block;
+      padding-right: 20px;
+      position: relative;
+      color: #2b2b2b; }
+      #brand .content .breadcrumbs a:after {
+        content: '>';
+        position: absolute;
+        right: 0; }
+      #brand .content .breadcrumbs a:last-child {
+        padding: 0; }
+        #brand .content .breadcrumbs a:last-child:after {
+          content: ' '; }
+    @media screen and (max-width: 992px) {
+      #brand .content .breadcrumbs {
+        padding-left: 12px; } }
+  #brand .content .banner .desktop-banner {
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    background-color: yellow;
+    height: 42vw;
+    max-height: 540px; }
+    #brand .content .banner .desktop-banner .banner-display {
+      width: 100%;
+      height: 100%;
+      overflow: hidden; }
+      #brand .content .banner .desktop-banner .banner-display .slick-arrow {
+        width: 20px;
+        height: 48px;
+        z-index: 990; }
+      #brand .content .banner .desktop-banner .banner-display .slick-prev {
+        left: 15px; }
+        #brand .content .banner .desktop-banner .banner-display .slick-prev:before {
+          color: white;
+          font-family: FontAwesome;
+          content: "\f104";
+          font-size: 66px;
+          text-shadow: 0 0 3px #696969; }
+      #brand .content .banner .desktop-banner .banner-display .slick-next {
+        right: 15px; }
+        #brand .content .banner .desktop-banner .banner-display .slick-next:before {
+          color: white;
+          font-family: FontAwesome;
+          content: "\f105";
+          font-size: 66px;
+          text-shadow: 0 0 3px #000000; }
+      #brand .content .banner .desktop-banner .banner-display img {
+        width: 100%; }
+      #brand .content .banner .desktop-banner .banner-display .slick-dots {
+        bottom: 0; }
+    @media screen and (max-width: 768px) {
+      #brand .content .banner .desktop-banner {
+        display: none; } }
+  #brand .content .banner .mobile-banner {
+    display: none; }
+    #brand .content .banner .mobile-banner .mobile-banner-display {
+      width: 100%;
+      height: 125vw;
+      overflow: hidden; }
+      #brand .content .banner .mobile-banner .mobile-banner-display .slick-arrow {
+        width: 20px;
+        height: 48px;
+        z-index: 990; }
+      #brand .content .banner .mobile-banner .mobile-banner-display .slick-prev {
+        left: 15px; }
+        #brand .content .banner .mobile-banner .mobile-banner-display .slick-prev:before {
+          color: white;
+          font-family: FontAwesome;
+          content: "\f104";
+          font-size: 66px;
+          text-shadow: 0 0 3px #696969; }
+      #brand .content .banner .mobile-banner .mobile-banner-display .slick-next {
+        right: 15px; }
+        #brand .content .banner .mobile-banner .mobile-banner-display .slick-next:before {
+          color: white;
+          font-family: FontAwesome;
+          content: "\f105";
+          font-size: 66px;
+          text-shadow: 0 0 3px #000000; }
+      #brand .content .banner .mobile-banner .mobile-banner-display .banner-pic img {
+        height: 125vw; }
+    #brand .content .banner .mobile-banner .mobile-banner-nav {
+      margin-top: -44px; }
+      #brand .content .banner .mobile-banner .mobile-banner-nav .banner-nav-item {
+        width: 155px;
+        height: 40px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        margin: 2px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 40px; }
+      #brand .content .banner .mobile-banner .mobile-banner-nav .slick-current {
+        background-color: rgba(0, 0, 0, 0.8); }
+    @media screen and (max-width: 768px) {
+      #brand .content .banner .mobile-banner {
+        display: block; } }
+  #brand .content .search {
+    text-align: center;
+    padding: 15px 0px;
+    background-color: white;
+    font-size: 16px;
+    vertical-align: baseline;
+    color: #1E57AE; }
+    #brand .content .search select {
+      width: 168px;
+      height: 26px;
+      border-radius: 5px;
+      border: 1px solid #949494;
+      padding-left: 15px;
+      font-size: 16px;
+      margin-left: 10px; }
+      #brand .content .search select:focus {
+        outline: 0; }
+      @media screen and (max-width: 768px) {
+        #brand .content .search select {
+          width: 130px;
+          margin-bottom: 10px; } }
+    #brand .content .search .search-button {
+      width: 40px;
+      height: 30px;
+      border-radius: 5px;
+      background-color: #0962EA;
+      border: 0;
+      margin-left: 10px;
+      cursor: pointer;
+      padding: 0; }
+      #brand .content .search .search-button img {
+        width: 17px;
+        height: 18px;
+        margin: 0; }
+      #brand .content .search .search-button:focus {
+        outline: 0; }
+      #brand .content .search .search-button:active {
+        background-color: #285DAE; }
+    @media screen and (max-width: 768px) {
+      #brand .content .search {
+        padding: 0px 5% 15px 5%;
+        text-align: left;
+        margin-top: 12px; }
+        #brand .content .search .type {
+          margin-top: 12px; } }
+  #brand .content .hot {
+    width: 100%;
+    height: 98px;
+    background-color: #F6F6F6;
+    padding-top: 15px; }
+    #brand .content .hot .frame {
+      width: 90%;
+      max-width: 1190px;
+      margin: auto; }
+      #brand .content .hot .frame .title {
+        display: inline-block;
+        width: 82px;
+        height: 28px;
+        color: white;
+        background-color: #F38600;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 5px;
+        line-height: 28px;
+        margin-right: 15px; }
+      #brand .content .hot .frame .search-tag {
+        display: inline-block;
+        color: #1E57AE;
+        text-decoration: underline;
+        margin-right: 20px;
+        margin-bottom: 20px; }
+    @media screen and (max-width: 768px) {
+      #brand .content .hot {
+        height: initial; } }
+  #brand .content .goods {
+    padding-top: 20px; }
+    #brand .content .goods .frame {
+      width: 1160px;
+      margin: auto; }
+      #brand .content .goods .frame:after {
+        width: 100%;
+        height: 0;
+        content: '';
+        display: block;
+        clear: both;
+        zoom: 1; }
+      #brand .content .goods .frame .item {
+        width: 270px;
+        background-color: #F6F6F6;
+        margin: 10px;
+        float: left; }
+        #brand .content .goods .frame .item .item-pic {
+          width: 100%;
+          height: 280px;
+          overflow: hidden; }
+          #brand .content .goods .frame .item .item-pic img {
+            margin: auto;
+            height: 100%; }
+          @media screen and (max-width: 580px) {
+            #brand .content .goods .frame .item .item-pic {
+              height: calc(50vw - 18px); } }
+        #brand .content .goods .frame .item .item-content {
+          box-sizing: border-box;
+          width: 100%;
+          padding: 10px 15px; }
+          #brand .content .goods .frame .item .item-content .title {
+            color: #2B2B2B;
+            font-size: 20px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            width: 100%; }
+          #brand .content .goods .frame .item .item-content .intro {
+            margin-top: 10px;
+            color: #2B2B2B;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            height: 38px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical; }
+          #brand .content .goods .frame .item .item-content .tags {
+            margin-top: 10px; }
+            #brand .content .goods .frame .item .item-content .tags .tag {
+              display: inline-block;
+              width: 66px;
+              height: 28px;
+              border-radius: 5px;
+              text-align: center;
+              color: white;
+              line-height: 28px;
+              margin: 10px 0; }
+            #brand .content .goods .frame .item .item-content .tags .course {
+              background-color: #1168C0; }
+            #brand .content .goods .frame .item .item-content .tags .place {
+              background-color: #B8C011; }
+        @media screen and (max-width: 885px) {
+          #brand .content .goods .frame .item {
+            margin: 5px; } }
+  @media screen and (max-width: 885px) and (max-width: 580px) {
+    #brand .content .goods .frame .item {
+      width: calc(50vw - 10px); } }
+
+      @media screen and (max-width: 1180px) {
+        #brand .content .goods .frame {
+          width: 870px; } }
+  @media screen and (max-width: 1180px) and (max-width: 885px) {
+    #brand .content .goods .frame {
+      width: 560px; } }
+
+  @media screen and (max-width: 1180px) and (max-width: 885px) and (max-width: 580px) {
+    #brand .content .goods .frame {
+      width: 100%; } }
+
+    #brand .content .goods .pager {
+      text-align: center;
+      margin: 20px 0; }
+      #brand .content .goods .pager span {
+        display: inline-block;
+        cursor: pointer;
+        width: 33px;
+        height: 33px;
+        border: 1px solid #979797;
+        text-align: center;
+        border-radius: 5px;
+        line-height: 33px; }
+      #brand .content .goods .pager .active {
+        background-color: #0962EA;
+        border: 0;
+        color: white; }
+  @media screen and (max-width: 992px) {
+    #brand .content {
+      margin-top: 80px; } }
+
+#brand_intro .container .content {
+  margin-top: 105px; }
+  #brand_intro .container .content .breadcrumbs {
+    background-color: #F6F6F6;
+    padding-left: 40px;
+    height: 35px;
+    line-height: 35px; }
+    #brand_intro .container .content .breadcrumbs a {
+      display: inline-block;
+      padding-right: 20px;
+      position: relative;
+      color: #2b2b2b; }
+      #brand_intro .container .content .breadcrumbs a:after {
+        content: '>';
+        position: absolute;
+        right: 0; }
+      #brand_intro .container .content .breadcrumbs a:last-child {
+        padding: 0; }
+        #brand_intro .container .content .breadcrumbs a:last-child:after {
+          content: ' '; }
+    @media screen and (max-width: 992px) {
+      #brand_intro .container .content .breadcrumbs {
+        padding-left: 12px; } }
+  #brand_intro .container .content .introduction {
+    padding: 20px 0; }
+    #brand_intro .container .content .introduction .title {
+      box-sizing: border-box;
+      position: relative;
+      width: 100%;
+      max-width: 1190px;
+      background-color: #F6F6F6;
+      border-radius: 9px;
+      margin: auto;
+      height: 80px;
+      padding: 25px 3%; }
+      #brand_intro .container .content .introduction .title .tag {
+        width: 66px;
+        height: 28px;
+        color: white;
+        text-align: center;
+        border-radius: 5px;
+        line-height: 28px;
+        float: left; }
+        @media screen and (max-width: 768px) {
+          #brand_intro .container .content .introduction .title .tag {
+            float: none;
+            display: inline-block; } }
+      #brand_intro .container .content .introduction .title .place {
+        background-color: #B8C011; }
+      #brand_intro .container .content .introduction .title .title-text {
+        color: #1E57AE;
+        font-size: 24px;
+        float: left;
+        margin-left: 10px; }
+        @media screen and (max-width: 768px) {
+          #brand_intro .container .content .introduction .title .title-text {
+            float: none;
+            display: inline-block; } }
+      #brand_intro .container .content .introduction .title .relatives {
+        float: right; }
+        #brand_intro .container .content .introduction .title .relatives a {
+          display: inline-block;
+          border: 1px solid #1E57AE;
+          border-radius: 5px;
+          width: 115px;
+          height: 28px;
+          color: #1E57AE;
+          text-align: center;
+          line-height: 28px;
+          margin-left: 10px; }
+          #brand_intro .container .content .introduction .title .relatives a i {
+            margin-left: 5px; }
+        @media screen and (max-width: 768px) {
+          #brand_intro .container .content .introduction .title .relatives {
+            float: none;
+            display: block;
+            margin-top: 15px; } }
+      @media screen and (max-width: 768px) {
+        #brand_intro .container .content .introduction .title {
+          min-height: 128px;
+          text-align: center;
+          padding: 22px; } }
+    #brand_intro .container .content .introduction .text {
+      max-width: 1190px;
+      margin: auto;
+      padding: 10px;
+      line-height: 22px;
+      padding-top: 35px; }
+      #brand_intro .container .content .introduction .text img {
+        margin: auto;
+        display: block; }
+        @media screen and (max-width: 768px) {
+          #brand_intro .container .content .introduction .text img {
+            width: 100%; } }
+    @media screen and (max-width: 768px) {
+      #brand_intro .container .content .introduction {
+        width: 90%;
+        margin: auto; } }
+  #brand_intro .container .content .suggestion {
+    width: 100%;
+    background-color: #F6F6F6;
+    height: 55px; }
+    #brand_intro .container .content .suggestion .frame {
+      width: 100%;
+      max-width: 1190px;
+      margin: auto;
+      padding-top: 12px; }
+      #brand_intro .container .content .suggestion .frame a {
+        display: inline-block;
+        border: 1px solid #1E57AE;
+        border-radius: 5px;
+        width: 115px;
+        height: 28px;
+        color: #1E57AE;
+        text-align: center;
+        line-height: 28px;
+        margin-left: 10px; }
+        #brand_intro .container .content .suggestion .frame a i {
+          margin-left: 5px; }
+  @media screen and (max-width: 992px) {
+    #brand_intro .container .content {
+      margin-top: 80px; } }
+
 /*# sourceMappingURL=style.css.map */
