@@ -1060,6 +1060,8 @@ body {
       width: 100%;
       height: 125vw;
       overflow: hidden; }
+      #store .content .banner .mobile-banner .mobile-banner-display .slick-dots {
+        bottom: 6px; }
       #store .content .banner .mobile-banner .mobile-banner-display .slick-arrow {
         width: 20px;
         height: 48px;

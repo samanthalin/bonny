@@ -1304,6 +1304,9 @@ body{
 						width: 100%;
 						height: 125vw;
 						overflow: hidden;
+						.slick-dots{
+							bottom: 6px;
+						}
 						.slick-arrow{
 							width: 20px;
 							height: 48px;
